@@ -1,7 +1,8 @@
 library(readr)
+library(tidyverse)
 
-df_t <- read_csv('train.csv')
-test <- read_csv('test.csv')
+df_t <- read_csv('data/train.csv')
+test <- read_csv('data/test.csv')
 table(df_t$estado)
 
 
